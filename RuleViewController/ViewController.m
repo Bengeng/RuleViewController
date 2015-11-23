@@ -35,4 +35,9 @@
     [self presentViewController:ruleVC animated:YES completion:nil];
 }
 
+- (void)ruleDidChange:(CGFloat)current
+{
+    NSLog(@"%s %lf",__FUNCTION__,current);
+}
+
 @end
